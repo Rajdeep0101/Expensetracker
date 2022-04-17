@@ -11,8 +11,8 @@ export default function Expense() {
                 <p>Your Balance: {(parseInt(Income))+(parseInt(Expense))}</p>
             </div>
             <div className="expensecontainer">
-                <div className="plus"><h2>Income: {parseInt(Income)}</h2></div>
-                <div className="minus"><h2>Expense: {Math.abs(parseInt(Expense))}</h2></div>
+                <div className="plus"><h2>Income:{parseInt(Income)}</h2></div>
+                <div className="minus"><h2>Expense:{Math.abs(parseInt(Expense))}</h2></div>
             </div> 
         </div>
   )

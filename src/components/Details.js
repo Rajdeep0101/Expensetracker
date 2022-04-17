@@ -33,7 +33,7 @@ if(parseInt(amountvalue)<0){
 }
 setTxtvalue('');
 setAmountvalue('');
-window.localStorage.clear();
+// window.localStorage.clear();
   }
    
 

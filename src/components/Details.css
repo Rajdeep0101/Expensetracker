@@ -5,15 +5,13 @@
     outline: none;
 }
 
-.details{
-    width: 100%;
-    /* background-color: burlywood; */
-    color: white;
-}
+
 .details{
     width: 100%;
     border-top: 1px solid black;
     text-align: center;
+    height: 25%;
+    color: white;
 }
 .headingtext{
     font-size: clamp(0.9rem,1.4vw,1.5rem);
@@ -76,7 +74,7 @@ input[type=number] {
     padding: 4px;
     width: 80%;
     font-size: clamp(0.9rem,1.3vw,1.4rem);
-    background: #7186ff;
+    background: #8ee1ff;
     border-radius: 7px;
     cursor: pointer;
 }
