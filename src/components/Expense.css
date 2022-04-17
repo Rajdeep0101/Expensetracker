@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+}
+
+.total{
+    width: 100%;
+    color: #edd6f5;
+    height: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: -2px;
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.expensecontainer{
+    width: 100%;
+    display: flex;
+    height: 36%;
+    background-image: linear-gradient(to right, #5fbd81 , #c55c5c);
+}
+.plus{
+    width: 50%;
+    height: 100%;
+    font-size: clamp(0.7rem, 1.2vw, 1.6rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minus{
+       width: 50%;
+       font-size: clamp(0.7rem, 1.2vw, 1.6rem);
+       display: flex; 
+       justify-content: center;
+       align-items: center;
+       height: 100%;
+}

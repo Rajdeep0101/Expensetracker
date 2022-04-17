@@ -1,0 +1,19 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navbar{
+
+    /* height: 20px; */
+    
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.navbar h2{
+    padding: 3px 0px 3px 0px;
+    font-size: clamp(1rem, 1.8vw, 2rem);
+}

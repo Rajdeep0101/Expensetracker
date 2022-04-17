@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.XpensTrker{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap{
+  width: 85%;
+  height: 95%;
+  /* background-color: blue; */
+  background-color: #383a3a;
+  border: 2px solid #643f69;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

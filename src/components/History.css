@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.historysection{
+    width: 100%;
+    height: 52%;
+    border-top: 1px solid #9e5f5f;
+}
+
+.htext{
+    background-color: lightgrey;
+    height: 10%;
+    font-size: clamp(1.1rem, 1.6vw, 1.6rem);
+    font-weight: bold;
+    text-align: center;
+}
+.htext p{
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    background-color: #686975;
+    color: white;
+    /* position: absolute; */
+    margin: 5px 0px 5px 0px;
+    height: 12%;
+}
+
+#history{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#history::-webkit-scrollbar {
+    display: none;
+}
+
+#history {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.money{
+    width: 37%;
+    height: 100%;
+    text-align: center;
+    font-size: clamp(0.9rem,1.4vw,1.5rem);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 4px;
+}
+
+.whatfor{
+    width: 57%;
+    height: 100%;
+    /* font-size: 1.1rem; */
+    font-size: clamp(0.9rem,1.4vw,1.5rem);
+    text-align: center;
+    padding-top: 4px;
+    border-right: 1px solid black;
+}
+
+.deletebtn{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: clamp(0.8rem,1.2vw,1.3rem);
+    cursor: pointer;
+}
+
+.sign1{
+    height: 100%;
+        width: 1%;
+        background-color: #42fb42;
+    
+}
+.sign2{
+    height: 100%;
+        width: 1%;
+        background-color: #ff3c3c;
+    
+}

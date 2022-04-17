@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.details{
+    width: 100%;
+    /* background-color: burlywood; */
+    color: white;
+}
+.details{
+    width: 100%;
+    border-top: 1px solid black;
+    text-align: center;
+}
+.headingtext{
+    font-size: clamp(0.9rem,1.4vw,1.5rem);
+    padding: 3px 0px 0px 10px;
+    color: #f0c8c8;
+    text-align: start;
+}
+.textdetails{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+
+}
+.purpose{
+    font-size: clamp(0.9rem,1.5vw,1.5rem);
+    padding: 2px 0px 2px 0px;
+}
+#textdata{
+    border: none;
+    background: transparent;
+    width: 35%;
+    font-size: clamp(0.9rem,1.5vw,1.5rem);
+    padding: 2px 0px 2px 7px;
+    color: white;
+    border-bottom: 1px solid grey;
+}
+.amountdetails{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3px;
+}
+.Amount{
+    font-size: clamp(0.9rem,1.5vw,1.5rem);
+    padding: 2px 0px 2px 0px;
+}
+#amountdata{
+    border: none;
+    background: transparent;
+    width: 36%;
+    font-size: clamp(0.9rem,1.5vw,1.5rem);
+    padding: 2px 0px 2px 7px;
+    color: white;
+    border-bottom: 1px solid grey;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn{
+    margin-top: 9px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 80%;
+    font-size: clamp(0.9rem,1.3vw,1.4rem);
+    background: #7186ff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
